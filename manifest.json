@@ -1,0 +1,19 @@
+{
+    "name": "MTGGoldfish Player Search",
+    "description": "Shortcut for searching MTGGoldfish Player Tournament Finishes. Not affiliated with MTGGoldfish, Inc.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "main.js"
+    },
+    "icons": {
+        "16": "/images/icon.png",
+        "32": "/images/icon.png",
+        "48": "/images/icon.png",
+        "128": "/images/icon.png"
+    }
+}
